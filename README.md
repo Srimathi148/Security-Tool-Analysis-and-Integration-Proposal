@@ -1,49 +1,31 @@
 # Security Tool Analysis and Integration Proposal
 
 ## Project Overview
+This project presents a cybersecurity tool analysis and integration proposal for a hypothetical organisation, Apex Technologies Pvt. Ltd., with approximately 75 employees and a four-member IT support team.
 
-This project evaluates recognised cybersecurity tools and proposes an integrated security operations framework for a hypothetical organisation, Apex Technologies Pvt. Ltd., based in India.
+The objective is to evaluate security tools and propose an integrated approach to improve threat detection, vulnerability management, security monitoring and incident response.
 
-The proposal focuses on improving threat detection, vulnerability management, network monitoring, and incident response through the coordinated use of selected cybersecurity tools.
+## Tools Evaluated
 
-## Organisation Profile
+1. **Wazuh** – Endpoint monitoring, log analysis, security event detection and file integrity monitoring.
+2. **Greenbone Community Edition** – Vulnerability scanning and assessment.
+3. **Suricata** – Network intrusion detection and traffic monitoring.
+4. **DFIR-IRIS** – Digital forensics and incident response case management.
 
-- **Organisation:** Apex Technologies Pvt. Ltd.
-- **Industry:** Information Technology
-- **Employees:** Approximately 75
-- **IT Support Team:** 4 members
-- **Location:** India
-- **Environment:** Employee endpoints, internal network, servers and cloud-based services
+## Proposed Integration
+The proposal describes how these tools can work together:
 
-## Tools Selected for Evaluation
+- Wazuh collects and analyses endpoint security events.
+- Suricata monitors network traffic and generates security alerts.
+- Greenbone identifies vulnerabilities in authorised systems.
+- DFIR-IRIS helps analysts manage incidents, evidence, tasks and investigation records.
 
-1. **Wazuh:** Security monitoring, log analysis and threat detection.
-2. **Greenbone Community Edition:** Vulnerability assessment and scanning.
-3. **Suricata:** Network intrusion detection and prevention.
-4. **DFIR-IRIS:** Security incident investigation and case management.
+The integration approach includes a proposed implementation roadmap, responsibilities, challenges, mitigation strategies and performance indicators.
 
-## Project Objectives
+## Main Deliverable
+`Security_Tool_Analysis_and_Integration_Proposal_REVISED.docx`
 
-- Analyse the functionalities of selected cybersecurity tools.
-- Compare their costs, effectiveness, limitations, integration capabilities and support.
-- Develop a comparison matrix.
-- Propose an integrated security monitoring and incident response framework.
-- Identify integration challenges and recommend practical solutions.
-- Align the proposed framework with recognised cybersecurity standards.
-
-## Planned Deliverables
-
-- Detailed security tool analysis report.
-- Tool comparison matrix.
-- Proposed integration architecture.
-- Integration workflow and implementation roadmap.
-- Challenges, limitations and mitigation strategies.
-- Mini simulated integration walkthrough using sample security events.
-
-## Standards and Guidance
-
-The proposal will consider NIST Cybersecurity Framework 2.0, relevant NIST security guidance, and recognised cybersecurity best practices.
+The Word document contains the detailed tool evaluations, comparison matrix, proposed architecture, integration workflow, implementation plan, cost considerations, KPIs and references.
 
 ## Disclaimer
-
-This project is an academic proposal based on a hypothetical organisation. The tools and integration workflow are evaluated for educational purposes. No real organisational deployment or security incident is claimed.
+This is an academic cybersecurity proposal based on a hypothetical organisation. It does not claim that the tools were installed, tested in a production environment or approved for actual organisational deployment.****
